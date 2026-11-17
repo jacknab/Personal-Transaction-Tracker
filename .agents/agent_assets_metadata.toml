@@ -1,0 +1,107 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "LWMij_O8e_KHaiTl2QIaT"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-Regular-PDF-subset.ttf"
+type = "unspecified"
+title = "CashMarket Regular — PDF subset"
+description = "Reconstructed standalone TTF containing only glyphs embedded in the supplied PDF."
+logical_id = "fcd44d86-6150-42a8-8f62-c12f91d43d65"
+content_hash = "sha256:eb0c3b1f172349709f4feb01a927088bddb4aa80610c4869ea146bdf863eeaeb"
+size = 8120
+mtime_ms = 1794894830323
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/fcd44d86-6150-42a8-8f62-c12f91d43d65/5aaf528b-9682-4e0a-a488-2bb751e1f1a6"
+storage_version_token = "1794894863634382"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-Regular-PDF-subset.ttf"
+
+[[outputs]]
+id = "RwXVsGLmfk6L_CLBe4VSy"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-Medium-PDF-subset.ttf"
+type = "unspecified"
+title = "CashMarket Medium — PDF subset"
+description = "Reconstructed standalone TTF containing only glyphs embedded in the supplied PDF."
+logical_id = "f6b04e1e-d1c0-4305-9d48-20bf0ce8d47e"
+content_hash = "sha256:a4e18213263b01afde0649ca3aa19dd399c0ff4ab01e2e5a7fd60f2eff65e5b6"
+size = 5260
+mtime_ms = 1794894830326
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/f6b04e1e-d1c0-4305-9d48-20bf0ce8d47e/f4df2159-20d9-437d-8d91-b03499ba053e"
+storage_version_token = "1794894864539733"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-Medium-PDF-subset.ttf"
+
+[[outputs]]
+id = "GNivSGSTSa4WwfU5clKqz"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-number-preview.png"
+type = "image"
+title = "CashMarket number preview"
+description = "Visual comparison of digits 0–9 in the extracted Regular and Medium PDF subsets."
+logical_id = "75bf1354-e497-4098-b44a-764dacd076e2"
+content_hash = "sha256:5aaa2101996c290343d75d5654113900f12989c10f0e14ad3955b7773b71bbf9"
+size = 74847
+mtime_ms = 1794894978624
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/75bf1354-e497-4098-b44a-764dacd076e2/cd70e0ca-0726-4299-be06-e895640bbd54"
+storage_version_token = "1794894988438362"
+content_type = "image/png"
+source_uri = "file://.agents/outputs/CashMarket-number-preview.png"
+
+[[outputs]]
+id = "jwgWOxcme6s3xcxLF05x5"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-Regular-Digits-Only.ttf"
+type = "unspecified"
+title = "CashMarket Regular — digits only"
+description = "Standalone TrueType font containing exactly the numerals 0–9 from the supplied PDF subset. It is not the complete CashMarket typeface."
+logical_id = "086c2c8a-6d5c-4082-bddb-c34068d45948"
+content_hash = "sha256:5c80d89e876514e2a4730e4dac56531fa0dc7a731bcdd60e31503039b88caea1"
+size = 2512
+mtime_ms = 1794895212484
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/086c2c8a-6d5c-4082-bddb-c34068d45948/94616800-ae1d-4034-aa31-00d3e61bf60c"
+storage_version_token = "1794895234673904"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-Regular-Digits-Only.ttf"
+
+[[outputs]]
+id = "YMi2DyVqKIJMqPiMZuDLG"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-PDF-Digits.ttf"
+type = "unspecified"
+title = "CashMarket PDF Digits — license unknown"
+description = "Digit-only desktop TTF containing 0–9. Its metadata records license status as unknown because the PDF had no license information. The required TTF embedding field uses its default value; that is not a license determination."
+logical_id = "5e6907db-d759-41c4-a1ce-43d3de11ea50"
+content_hash = "sha256:55ff8fba454ecc7e0e13cd9a072cc7d38462629db8f88d11c9c4249db52425ff"
+size = 2784
+mtime_ms = 1794895383682
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/5e6907db-d759-41c4-a1ce-43d3de11ea50/e8d80107-a494-4adf-b7e9-5e30e20eefbc"
+storage_version_token = "1794895393686825"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-PDF-Digits.ttf"
+
+[[outputs]]
+id = "ouaUgvIRBS5jELGlqnvP4"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-PDF-Numbers.ttf"
+type = "unspecified"
+title = "CashMarket PDF Numbers"
+description = "Standalone TTF subset containing exactly digits 0–9, comma, period, and dollar sign. The source PDF did not include license metadata, so license status remains unknown."
+logical_id = "1bf9e1d4-827a-4567-97b2-94336b3b9de6"
+content_hash = "sha256:efabf2a9c2b136d2dba8cf71ded088ffdc43e62d9dcff1e948a62bbb9a86db18"
+size = 3128
+mtime_ms = 1794895571885
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/1bf9e1d4-827a-4567-97b2-94336b3b9de6/ad75b129-d20b-4854-8cf8-14f1eb33b501"
+storage_version_token = "1794895582798540"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-PDF-Numbers.ttf"
+
+[[outputs]]
+id = "lxyk3iufC79sF6Ps1KTyD"
+uri = "file://.local/conversation-workspace/files/.agents/outputs/CashMarket-PDF-Extended-Regular.ttf"
+type = "unspecified"
+title = "CashMarket PDF Subset — Regular"
+description = "Expanded TTF made from all 75 mapped characters embedded in the supplied PDF: 26 lowercase letters, 22 uppercase letters, digits, and available punctuation. Uppercase G, Q, X, and Z are absent; license status remains unknown."
+logical_id = "9a06da61-7a29-442f-b517-274360560bf4"
+content_hash = "sha256:90d6451dbaac7fdb2f492696d315621b8c38e1a1bb6f2789d7f83dc1d9bbb467"
+size = 7384
+mtime_ms = 1794895819019
+storage_uri = "gcs://replit-rams-assets-picard/rams/assets/conversation:1a175ee6-1e24-4b25-823e-a719b9259a88/9a06da61-7a29-442f-b517-274360560bf4/5548a8d5-7781-4030-9136-319abb10454f"
+storage_version_token = "1794895826988108"
+content_type = "application/octet-stream"
+source_uri = "file://.agents/outputs/CashMarket-PDF-Extended-Regular.ttf"

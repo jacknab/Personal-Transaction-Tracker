@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Personal Transactions"
+description = "A private, browser-local transaction ledger for entering, editing, and reviewing personal payments and deposits, with printable monthly reports."
+version = "1.0.0"
+id = "artifacts/personal-transactions"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21025
+
+[services.development]
+run = "pnpm --filter @workspace/personal-transactions run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/personal-transactions", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/personal-transactions/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21025"
+BASE_PATH = "/"
